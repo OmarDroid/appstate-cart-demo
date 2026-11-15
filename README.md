@@ -2,7 +2,7 @@
 
 A small Android shop app where **one cart, held in a Jetpack AppState `StateStore`, feeds three places**: a catalog, a cart screen and a top-bar badge. Each place derives its own UI state with **AppState `transform`**. A second catalog ViewModel builds the same state with Flow `combine` + `stateIn`, so the two can be compared side by side.
 
-It's the companion app for the post *One cart, three places: Jetpack AppState Transform vs Flow* (link added on publish).
+It's the companion app for the post [*One cart, three places: Jetpack AppState Transform vs Flow*](https://omaroid.medium.com/one-cart-three-places-jetpack-appstate-transform-vs-flow-ea4c13851fa2) on Medium.
 
 > AppState is **alpha** (`androidx.appstate` 1.0.0-alpha02). APIs will change. This repo is a learning demo, not production guidance.
 
