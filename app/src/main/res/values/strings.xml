@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppState Shop</string>
+    <string name="cart_title">Your cart</string>
+    <string name="back">Back</string>
+    <string name="open_cart">Open cart</string>
+    <string name="search_label">Search products</string>
+    <string name="catalog_empty">No products match your search.</string>
+    <string name="add">Add</string>
+    <string name="increase">Add one</string>
+    <string name="decrease">Remove one</string>
+    <string name="cart_empty">Your cart is empty.</string>
+    <string name="promo_label">Promo code (try SAVE10)</string>
+    <string name="promo_checking">Checking…</string>
+    <string name="promo_valid">10% off applied</string>
+    <string name="promo_invalid">Unknown code</string>
+    <plurals name="subtotal_items">
+        <item quantity="one">Subtotal (%d item)</item>
+        <item quantity="other">Subtotal (%d items)</item>
+    </plurals>
+    <string name="total">Total</string>
+    <string name="clear_cart">Clear cart</string>
+</resources>
