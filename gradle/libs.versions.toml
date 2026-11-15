@@ -1,0 +1,40 @@
+[versions]
+agp = "9.4.1"
+kotlin = "2.4.10"
+composeBom = "2026.09.00"
+appstate = "1.0.0-alpha02"
+datastore = "1.3.0"
+okio = "3.17.0"
+kotlinxSerialization = "1.11.0"
+kotlinxCoroutines = "1.11.0"
+lifecycle = "2.11.0"
+activityCompose = "1.13.0"
+junit = "4.13.2"
+truth = "1.4.5"
+turbine = "1.2.1"
+
+[libraries]
+androidx-appstate-transform = { module = "androidx.appstate.transform:transform", version.ref = "appstate" }
+androidx-appstate-transform-testing = { module = "androidx.appstate.transform:transform-testing", version.ref = "appstate" }
+androidx-appstate-statestore = { module = "androidx.appstate.statestore:statestore", version.ref = "appstate" }
+androidx-appstate-statestore-datastore = { module = "androidx.appstate.statestore:statestore-datastore", version.ref = "appstate" }
+androidx-datastore-core-okio = { module = "androidx.datastore:datastore-core-okio", version.ref = "datastore" }
+okio = { module = "com.squareup.okio:okio", version.ref = "okio" }
+kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinxSerialization" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutines" }
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+androidx-compose-ui = { module = "androidx.compose.ui:ui" }
+androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
+androidx-compose-material-icons-core = { module = "androidx.compose.material:material-icons-core" }
+androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+junit = { module = "junit:junit", version.ref = "junit" }
+truth = { module = "com.google.truth:truth", version.ref = "truth" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
